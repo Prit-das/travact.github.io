@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="travelling.css" />
+  <title>TraVact</title>
+</head>
+
+<body>
+  <!-----------------------------------------------------------Navbar------------------------------------------------------------------------>
+    <navbar>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="logo" href="#">Travact</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destination">Destination & Activities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Review">Customer Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </navbar>
+  <!-----------------------------------------------------------Home------------------------------------------------------------------------>
+    <Home>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="trekking.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="mountainbiking.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="paragliding.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </Home>
+  <!-----------------------------------------------------------About------------------------------------------------------------------------>
+  <div class="container-fluid">
+    <about id="about">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center">
+          <p class="h2" id="aboutus">About Us</p>
+          <hr id="abouthr">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-11 text-center">
+          <p id="paraabout">
+            A travel activity planner company is a business that specializes
+            in planning and organizing travel itineraries and activities for
+            individuals or groups. These companies can offer a wide range of
+            services, such as arranging transportation, booking
+            accommodations, scheduling tours and activities, providing
+            recommendations for dining and entertainment, and more. The goal
+            of a travel activity planner company is to make the travel
+            experience as smooth and enjoyable as possible for their clients.
+            They may have a team of experienced travel advisors who work
+            closely with their clients to create customized itineraries based
+            on their preferences and budget. Many travel activity planner
+            companies focus on specific niches or destinations, such as
+            adventure travel, luxury travel, or travel to specific regions of
+            the world. Some may also specialize in corporate travel or group
+            travel. To succeed in this industry, a travel activity planner
+            company needs to have a strong network of contacts in the travel
+            industry, as well as excellent organizational and customer service
+            skills. They must also stay up-to-date on the latest travel trends
+            and regulations to ensure that their clients have a safe and
+            enjoyable experience.
+          </p>
+        </div>
+      </div>
+    </about>
+    <!-------------------------------------------------Destination & Activities----------------------------------------------------->
+    <section id="destination">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center" id="destination">
+          <p class="h3">Our Famous Destination</p>
+          <hr id="destinationhr">
+        </div>
+      </div>
+      <!-------------------Rishikesh-------------------------->
+      <div class="row justify-content-evenly">
+        <div class="col-lg-3">
+          <div class="card-group">
+            <div class="card">
+              <img src="Rishikesh.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rishikesh-Uttarakhand, India</h5>
+                <input type="checkbox" id="ch">
+                <p class="card-text">It is situated at the foothills of the Himalayas, near the confluence of the Ganges and Chandrabhaga rivers. Rishikesh is considered to be one of the holiest places in India, and is known as the <b>"Yoga Capital of the World".</b></p>
+                <div class="content">
+                  <p>Rishikesh is also known for its scenic beauty, with stunning views of the surrounding Himalayan mountains and lush forests. The city is a gateway to many trekking routes and outdoor activities, such as white water rafting, bungee jumping, and camping. It is a must-visit destination for anyone looking to explore the spiritual and natural wonders of India..</p>
+                  <label class="bg-dark" for="ch">Show less</label>
+                </div>
+                <label class="bg-dark" for="ch">Read more</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-------------------Goa-------------------------->
+        <div class="col-lg-3">
+          <div class="card-group">
+            <div class="card">
+              <img src="Goa.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Goa, The west coast of India</h5>
+                <input type="checkbox" id="chtwo">
+                <p class="card-text"><b>Goa was a Portuguese colony for over 450 years</b> until it was annexed by India in 1961. This colonial history is reflected in the state's architecture, with many old churches are popular tourist attractions.</p>
+                <div class="content">
+                  <p>Goan cuisine is a unique blend of Indian and Portuguese influences, with dishes such as vindaloo, sorpotel being popular favorites. Goa is a popular destination for tourists and travelers seeking a mix of relaxation, culture, and adventure. Whether you're looking to soak up the sun on a beautiful beach, explore colonial history, or try new foods, Goa is a must-visit destination in India.</p>
+                  <label class="bg-dark" for="chtwo">Show less</label>
+                </div>
+                <label class="bg-dark" for="chtwo">Read more</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-------------------Andaman-------------------------->
+        <div class="col-lg-3">
+          <div class="card-group">
+            <div class="card">
+              <img src="Andaman.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Andaman, Eastern coast of India</h5>
+                <input type="checkbox" id="chthree">
+                <p class="card-text"><b>They are a Union Territory of India </b> and are famous for their stunning beaches, clear waters, and unique wildlife.The Andaman Islands are home to a diverse range of flora and fauna, including several endemic species.</p>
+                <div class="content">
+                  <p>In addition to the beaches and water activities, the Andaman Islands also offer visitors the opportunity to explore its history and culture. The Cellular Jail in Port Blair is a popular tourist attraction, serving as a reminder of the region's colonial past. Visitors can also explore the islands' tribal communities and learn about their unique cultures and traditions.</p>
+                  <label class="bg-dark" for="chthree">Show less</label>
+                </div>
+                <label class="bg-dark" for="chthree">Read more</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-------------------Destinitation-------------------------->
+    </section>
+    <activities>
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center" id="activities">
+          <p class="h3">Top Rating Activities</p>
+          <hr id="activitieshr">
+        </div>
+      </div>
+<!----------------------------------------Activity list------------------------------------------------------>
+      <div class="row justify-content-evenly">
+        <div class="col-lg-3 text-center">
+          <div class="btn-group">
+            <button type="button" id="button" class="btn btn-secondary dropdown-toggle bg-dark" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+              Activities At Rishikesh
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start"> 
+              <li><button class="dropdown-item" type="button">&nbsp;1. River Rafting</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;2. Kayaking </button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;3. Rock Climbing</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;4. Bungee Jumping</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;5. Trekking</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;6. Mountain Biking</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;7. Flying Fox</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;8. Giant Swing</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;9. Waterfall Trekking</button></li>
+              <li><button class="dropdown-item" type="button">10. Horse Riding</button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center">
+          <div class="btn-group">
+            <button type="button" id="button" class="btn btn-secondary dropdown-toggle bg-dark" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+              Activities At Goa                     
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+              <li><button class="dropdown-item" type="button">1. Parasailing </button></li>
+              <li><button class="dropdown-item" type="button">2. Bumper Ride </button></li>
+              <li><button class="dropdown-item" type="button">3. Jetsky Ride </button></li>
+              <li><button class="dropdown-item" type="button">4. Boat Riding </button></li>
+              <li><button class="dropdown-item" type="button">5. Scuba Driving </button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center">
+          <div class="btn-group">
+            <button type="button" id="button" class="btn btn-secondary dropdown-toggle bg-dark" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+              Activities At Andaman
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+              <li><button class="dropdown-item" type="button">&nbsp;1. Scuba Diving</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;2. Sea Walk</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;3. Parasailing</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;4. Jet Skiing</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;5. Banana Boat Ride</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;6. Kayaking</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;7. Fishing</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;8. Surfing</button></li>
+              <li><button class="dropdown-item" type="button">&nbsp;9. Glass Bottom Boat Ride</button></li>
+              <li><button class="dropdown-item" type="button">10. Coral Safari</button></li>
+              <li><button class="dropdown-item" type="button">11. Wakeboarding</button></li>
+              <li><button class="dropdown-item" type="button">12. Paddleboarding</button></li>
+              <li><button class="dropdown-item" type="button">13. Underwater Scooter</button></li>
+              <li><button class="dropdown-item" type="button">14. Flyboarding</button></li>
+          </div>
+        </div>
+
+
+
+    </activities>
+    <!-------------------------------------------------Our Gallery----------------------------------------------------->
+    <gallery class="gallery">
+    <div class="row justify-content-center">
+      <div class="col-lg-12 text-center" id="galler">
+        <p class="h3">Our Gallery</p>
+        <hr id="galleryhr">
+      </div>
+    </div>
+      <div class="row justify-content-evenly">
+        <div class="col-lg-3" id="cthree"><img src="activities/River Rafting.jpg" class="card-img-top" alt="..."></div>
+        <div class="col-lg-2" id="ctwo" style="align-self: center;"><img src="activities/Rock Climbing - Rishikesh.jpg" class="card-img-top" alt="..."></div>
+        <div class="col-lg-2" id="ctwo"><img src="activities/Kayaking - Rishikesh.jpg" class="card-img-top" alt="..."></div>
+        <div class="col-lg-3" id="cthree"><img src="activities/Trekking.jpg" class="card-img-top" alt="..."></div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-lg-2" id="ctwo"><img src="activities/Parasailing.jpg" class="card-img-top" alt="..."></div>
+        <div class="col-lg-3" id="cthree"><img src="activities/Jetski.jpg" class="card-img-top" alt="..."></div>
+        <div class="col-lg-2" id="ctwo" style="align-self: center;"><img src="activities/Scuba.jpg" class="card-img-top" alt="..."></div>
+        <div class="col-lg-3" id="cthree"><img src="activities/Banana Ride.jpg" class="card-img-top" alt="..."></div>
+      </div>
+      <div class="row justify-content-evenly">
+        <div class="col-lg-3" id="cthree"><img src="activities/Sea Walk.jpg" class="card-img-top" alt="..."></div>
+        <div class="col-lg-2" id="ctwo"><img src="activities/Fishing.jpg" class="card-img-top" alt="..."></div>
+        <div class="col-lg-3" id="cthree"><img src="activities/Snorkeling.jpg" class="card-img-top" alt="..."></div>
+        <div class="col-lg-2" id="ctwo" style="align-self: center;"><img src="activities/Wakeboarding.jpg" class="card-img-top" alt="..."></div>
+      </div>
+    </gallery>
+    <!-------------------------------------------------Customer Review----------------------------------------------------->
+    <Review id="Review">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 text-center" id="custre">
+          <p class="h3">Customer Review</p>
+          <hr id="custrehr">
+        </div>
+      </div>
+      
+      <div class="row justify-content-evenly">
+        <div class="col-lg-3" id="custimg">
+          <div class="card mb-3" style="max-width: auto;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="p1.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Jenny Merson</h5>
+                  <p class="card-text">I recently used the services of a travel planner company for my vacation, and I must say that I was thoroughly impressed with their services.</p>
+                  <p class="card-text"><small class="text-muted"><h5><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></h5></small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3" id="custimg">
+          <div class="card mb-3" style="max-width: auto;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="p2.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Xervis Colleten</h5>
+                  <p class="card-text">I recently used the services, I highly recommend this travel planner company to anyone who is looking for a stress-free and well-planned vacation.</p>
+                  <p class="card-text"><small class="text-muted"><h5><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></h5></small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3" id="custimg">
+          <div class="card mb-3" style="max-width: auto;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="p3.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Jonthan</h5>
+                  <p class="card-text">Throughout my vacation, I felt well taken care of and knew that I could rely on the travel planner company to assist me if I encountered any issues.</p>
+                  <p class="card-text"><small class="text-muted"><h5><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></h5></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </Review>
+    <!-------------------------------------------------Footer----------------------------------------------------->
+    <footer>
+      <div class="row" id="footer">
+        <div class="col-lg-5 bg-dark" id="footerone">
+          <h5>Quick Links</h5>
+          <div class="row" id="footertext">
+            <div class="col-4"><h6>Things to do</h6></div>
+            <div class="col-4"><h6>Where to go</h6></div>
+            <div class="col-4"><h6>What to see</h6></div>
+          </div>
+          <div class="row" id="footertext">
+            <div class="col-4"><h6>Plan your trip</h6></div>
+            <div class="col-4"><h6 class="hsix">Events</h6></div>
+            <div class="col-4"><h6 class="hsix">Business</h6></div>
+          </div>
+        </div>
+        <div class="col-lg-4 bg-dark" id="footertwo">
+          <h5>Newsletter</h5>
+          <div class="col-12">
+            <p>
+              Sign up for exciting updates & great deals, Know more about our events
+              and get great travel ideas.
+            </p>
+          </div>
+          <div class="col-12">
+            <button type="button" class="btn btn-warning" id="subbutton">
+              Subscribe now
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-3 bg-dark" id="footerthree">
+          <h5>Follow Us</h5>
+          <div class="col-12">
+            <i class="bi bi-facebook fb"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-12 bg-dark" id="footerbutton">
+              <h5>Download Our App</h5>
+              <div id="google">
+                  <button class="google bg-dark" role="button"><i class="bi bi-google-play play"></i><p id="get">Get it on</p><p id="set">Google Play</p></button></div>
+                  <button class="apple bg-dark" role="button"><i class="bi bi-apple play"></i><p id="apget">Get it on</p><p id="apset">App Store</p></button></div>
+              </div>
+          </div>
+          <div class="row" id="footerlast">
+              <div class="col-lg-12 bg-dark text-center">
+                  <h6>Travact&nbsp;<i class="bi bi-c-circle " id="copy"></i> All Rights Reserved</h6>
+              </div>
+          </div>
+      </div>
+    </footer>
+
+
+
+    <!-----------Container------------->
+  </div>
+</body>
+
+</html>
