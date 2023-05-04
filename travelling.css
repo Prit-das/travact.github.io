@@ -1,0 +1,393 @@
+/*-----------------------------------------------------------Navbar------------------------------------------------------------------------*/
+#logo{
+    font-size: 28px;
+}
+.nav-item{
+    padding: 0px 10px;
+}
+@media only screen and (min-width: 1025px) and (max-width : 1280px){
+    #logo{
+    margin-left: 3%;
+    margin-right: 40%;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width : 1680px){
+    #logo{
+    margin-left: 5%;
+    margin-right: 48%;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width : 800px){
+    .nav-item{
+        padding-left: 6%;
+    }
+    .navbar-brand{
+        padding-left: 6%;
+    }
+}
+@media only screen and (min-width: 801px) and (max-width : 1024px){
+    #logo{
+    margin-left: 3%;
+    margin-right: 30%;
+    }
+}
+/*-----------------------------------------------------------Carousel------------------------------------------------------------------------*/
+    @media only screen and (min-width: 280px) and (max-width: 400px){
+        .carousel-inner{
+            height: 250px;
+        }
+    }
+    @media only screen and (min-width: 400px) and (max-width: 750px){
+        .carousel-inner{
+            height: 300px;
+        }
+    }
+    @media only screen and (min-width: 750px) and (max-width: 1024px){
+        .carousel-inner{
+            height: 600px;
+        }
+    }
+    @media only screen and (min-width: 1280px) and (max-width: 2400px){
+        .carousel-inner{
+            height: 750px;
+        }
+    }
+/*-----------------------------------------------------------About------------------------------------------------------------------------*/
+#aboutus{
+    margin-top: 5%;
+}
+#abouthr{
+    width: 140px;
+    color: black;
+    border: 2px solid orange;
+    opacity: 1;
+    position: relative;
+    margin: auto;
+    animation-name: about;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes about{
+    from{width: 0px;}
+    to{width: 140px;}
+}
+#paraabout{
+    margin-top: 2.5%;
+    padding: 0px 10px;
+}
+@media only screen and (min-width: 280) and (max-width: 800){
+    #paraabout{
+        margin-top: 2.5%;
+        padding: 1px 10px;
+    }
+}
+/*-------------------------------------------------Destination-----------------------------------------------------*/
+#destination{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#destinationhr{
+    width: 300px;
+    border: 2px solid orange;
+    opacity: 1;
+    position: relative;
+    margin: auto;
+    animation-name: destiny;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes destiny{
+    from{width: 0px;}
+    to{width: 300px;}
+}
+/*--------------------------------------------show-less and show-more----------------------------------------------*/
+#ch {
+    display: none;
+}
+#ch:checked~.content {
+    display: block;
+}
+#ch:checked~label {
+    display: none;
+}
+.content {
+    display: none;
+}
+#chtwo {
+    display: none;
+}
+#chtwo:checked~.content {
+    display: block;
+}
+#chtwo:checked~label {
+    display: none;
+}
+.content {
+    display: none;
+}
+#chthree {
+    display: none;
+}
+#chthree:checked~.content {
+    display: block;
+}
+#chthree:checked~label {
+    display: none;
+}
+.content {
+    display: none;
+}
+label{
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    /* background-color: rgb(39, 114, 225); */
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+label:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(4px);
+}
+/*--------------------------------------------show-less and show-more----------------------------------------------*/
+
+/*-------------------------------------------------Activities-----------------------------------------------------*/
+#activities{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#button{
+    width: 250px;
+    height: 40px;
+}
+#button:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(4px);
+}
+#activitieshr{
+    width: 250px;
+    border: 2px solid orange;
+    opacity: 1;
+    position: relative;
+    margin: auto;
+    animation-name: activity;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes activity{
+    from{width: 0px;}
+    to{width: 250px;}
+}
+
+
+/*-------------------------------------------------Gallery-----------------------------------------------------*/
+#galler{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#ctwo img{
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+#cthree img{
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+#galleryhr{
+    width: 140px;
+    border: 2px solid orange;
+    opacity: 1;
+    position: relative;
+    margin: auto;
+    animation-name: gallery;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes gallery{
+    from{width: 0px;}
+    to{width: 140px;}
+}
+@media only screen and (min-width: 280px) and (max-width: 995px){
+    .gallery{
+        display: none;
+    }
+}
+/*-------------------------------------------------Customer Review-----------------------------------------------------*/
+#custre{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#custrehr{
+    width: 220px;
+    border: 2px solid orange;
+    opacity: 1;
+    position: relative;
+    margin: auto;
+    animation-name: custre;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes custre{
+    from{width: 0px;}
+    to{width: 220px;}
+}
+@media only screen and (min-width: 280px) and (max-width: 819px){
+    #custimg img{
+        display: none;
+    }
+}
+/*-------------------------------------------------Footer-----------------------------------------------------*/
+#footer h5{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#footertext{
+    margin-left: 8%;
+}
+#footertext h6{
+    margin-bottom: 15%;
+    font-weight: 400;
+}
+#footertext h6:hover{
+    cursor: pointer;
+    color: rgb(255, 194, 81);
+}
+#footertwo h5{
+    margin-left: 0;
+}
+#footertwo p{
+    padding-right: 15%;
+    margin-bottom: 10%;
+}
+#footerthree h5{
+    margin-left: 0;
+}
+#footerthree i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+#footerthree i:hover{
+    cursor: pointer;
+    color: rgb(255, 194, 81);
+}
+/* ------------------------------footerbutton---------------------------------------- */
+#divfooter{
+    margin-top: 2%;
+}
+#footer{
+    padding-top: 5%;
+}
+#footerbutton h5{
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+.google{
+    display: flex;
+    width: 155px;
+    height: 52px;
+    margin-left: 4%;
+    border-radius: 15px;
+    position: relative;
+}
+.google .play{
+    font-size: 30px;
+    color: white;
+}
+#set{
+   display: block;
+   position: relative;
+   margin-top: 12%;
+   margin-left: -41%;
+   font-size: 18px;
+   color: white;
+}
+#get{
+    margin-left: 6%;
+    color: white;
+}
+.apple{
+    display: flex;
+    width: 145px;
+    height: 52px;
+    margin-left: 16%;
+    border-radius: 15px;
+    position: relative;
+    margin-top: -3.5%;
+}
+.apple .play{
+    font-size: 30px;
+    color: white;
+}
+#apset{
+   display: block;
+   position: relative;
+   margin-top: 12%;
+   margin-left: -41%;
+   font-size: 18px;
+   color: white;
+}
+#apget{
+    margin-left: 6%;
+    color: white;
+}
+#footerlast h6{
+    font-weight: 400;
+}
+@media only screen and (min-width: 280px) and (max-width: 510px){
+    #footerone{
+        display: none;
+    }
+    #footerbutton{
+        display: none;
+    }
+    #footertwo p{
+        margin-bottom: 5%;
+    }
+    #footerthree{
+        padding-bottom: 3%;
+    }
+}
+@media only screen and (min-width: 520px) and (max-width: 915px){
+    #footerone{
+        display: none;
+    }
+    #footerbutton{
+        display: none;
+    }
+    #footertwo p{
+        margin-bottom: 5%;
+    }
+    #footerthree{
+        padding-bottom: 3%;
+    }
+}
+@media only screen and (min-width: 950px) and (max-width: 1024px){
+    .apple{
+        margin-left: 22%;
+        margin-top: -5%;
+        margin-bottom: 2%;
+    }
+    #footertwo p{
+        margin-bottom: 5%;
+    }
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+    .apple{
+        margin-left: 20%;
+        margin-top: -4%;
+        margin-bottom: 2%;
+    }
+    #footertwo p{
+        margin-bottom: 5%;
+    }
+
+}
